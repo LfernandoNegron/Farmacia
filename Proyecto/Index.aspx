@@ -24,7 +24,6 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">Jarabes</a>
                         </li>
-
                         <li class="nav-item">
                             <a href="#" class="nav-link">Inyecciones</a>
                         </li>
@@ -34,7 +33,6 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">Promociones</a>
                         </li>
-
                     </ul>
                     <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#btnBuscar">Buscar </button>
                     &nbsp;
@@ -46,14 +44,6 @@
                             <div class="dropdown-menu">
                                 <div class="dropdown-item" href="#">
                                     Pastillas $30.00 x 3
-                                <button class="btn btn-danger">x</button>
-                                </div>
-                                <div class="dropdown-item" href="#">
-                                    Pastillas
-                                <button class="btn btn-danger">x</button>
-                                </div>
-                                <div class="dropdown-item" href="#">
-                                    Pastillas
                                 <button class="btn btn-danger">x</button>
                                 </div>
                             </div>
@@ -83,7 +73,6 @@
             </div>
         </section>
 
-
         <%-- Div de jumbotron --%>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -93,12 +82,7 @@
                 </p>
             </div>
         </div>
-
-        <%-- seccion para para hacer filtro de busqueda --%>
-        <%--<section id="btnBuscar" class="container collapse">
-            <input type="text" class="" name="filtro" value="" />
-        </section>--%>
-
+        
         <main class="container">
             <div class="row">
                 <div class="col-auto">
