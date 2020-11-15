@@ -12,6 +12,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
             <div class="container">
                 <a class="navbar-brand" href="#">Farmacia</a>
@@ -56,7 +58,6 @@
                 </div>
             </div>
         </nav>
-
         <section id="btnBuscar" class="bg-primary collapse">
             <div class="container p-2">
                 <div class="row">
@@ -72,6 +73,7 @@
                 </div>
             </div>
         </section>
+        </header>
 
         <%-- Div de jumbotron --%>
         <div class="jumbotron jumbotron-fluid">
