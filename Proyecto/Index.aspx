@@ -14,30 +14,30 @@
     <form id="form1" runat="server">
 
         <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-            <div class="container">
-                <a class="navbar-brand" href="#">Farmacia</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarsExample07">
-                    <ul class="navbar-nav mr-auto">
-                        <!-- botones simples  -->
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Jarabes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Inyecciones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Pastillas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Promociones</a>
-                        </li>
-                    </ul>
-                    <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#btnBuscar">Buscar </button>
-                    &nbsp;
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Farmacia</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample07">
+                        <ul class="navbar-nav mr-auto">
+                            <!-- botones simples  -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Jarabes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Inyecciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Pastillas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Promociones</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#btnBuscar">Buscar </button>
+                        &nbsp;
                     <div class="btn-group">
                         <div class="btn-group dropleft" role="group">
                             <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,24 +55,24 @@
                         </button>
                     </div>
 
-                </div>
-            </div>
-        </nav>
-        <section id="btnBuscar" class="bg-primary collapse">
-            <div class="container p-2">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <input type="text" class="form-control" name="filtro" value="" />
-                    </div>
-                    <div class="col-lg-6">
-                        <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="todos" Checked="true" Text="Todos" runat="server" />
-                        <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="pastilla" Text="Pastilla" runat="server" />
-                        <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="inyeccion" Text="Inyeccion" runat="server" />
-                        <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="jarabes" Text="Jarabes" runat="server" />
                     </div>
                 </div>
-            </div>
-        </section>
+            </nav>
+            <section id="btnBuscar" class="bg-primary collapse">
+                <div class="container p-2">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="filtro" value="" />
+                        </div>
+                        <div class="col-lg-6">
+                            <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="todos" Checked="true" Text="Todos" runat="server" />
+                            <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="pastilla" Text="Pastilla" runat="server" />
+                            <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="inyeccion" Text="Inyeccion" runat="server" />
+                            <asp:RadioButton GroupName="tipo" CssClass="btn btn-default" ID="jarabes" Text="Jarabes" runat="server" />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </header>
 
         <%-- Div de jumbotron --%>
@@ -84,7 +84,7 @@
                 </p>
             </div>
         </div>
-        
+
         <main class="container">
             <div class="row">
                 <div class="col-auto">
