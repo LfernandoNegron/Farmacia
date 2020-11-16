@@ -85,9 +85,10 @@
         </div>
 
         <main class="container">
-            <div class="row">
+            <div class="row justify-content-between">
+                
                 <div class="col-auto">
-                    <div class="card d-inline-block" style="width: 18rem;">
+                    <div class="card d-inline-block m-2" style="width: 18rem;">
                         <img src="img/el%20amor%20te%20ha%20cegado.jpg" class="card-img" alt="Pastillas next caja 10P" />
                         <div class="card-body">
                             <h5 class="card-title">Pastillas next</h5>
@@ -116,6 +117,62 @@
                     </div>
 
                 </div>
+                <div class="col-auto">
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="img/el%20amor%20te%20ha%20cegado.jpg" class="card-img" alt="Pastillas next caja 10P" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pastillas next</h5>
+                            <p class="card-text">Pastillas para el dolor de cabeza, gripe y tos de 10 pastillas</p>
+                            <p class="card-text"><small class="text-success">$30.00 por caja</small></p>
+                            <asp:Button Text="Agregar" CssClass="btn btn-primary btn-block" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="img/el%20amor%20te%20ha%20cegado.jpg" class="card-img" alt="Pastillas next caja 10P" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pastillas next</h5>
+                            <p class="card-text">Pastillas para el dolor de cabeza, gripe y tos de 10 pastillas</p>
+                            <p class="card-text"><small class="text-success">$30.00 por caja</small></p>
+                            <asp:Button Text="Agregar" CssClass="btn btn-primary btn-block" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="img/el%20amor%20te%20ha%20cegado.jpg" class="card-img" alt="Pastillas next caja 10P" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pastillas next</h5>
+                            <p class="card-text">Pastillas para el dolor de cabeza, gripe y tos de 10 pastillas</p>
+                            <p class="card-text"><small class="text-success">$30.00 por caja</small></p>
+                            <asp:Button Text="Agregar" CssClass="btn btn-primary btn-block" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="img/el%20amor%20te%20ha%20cegado.jpg" class="card-img" alt="Pastillas next caja 10P" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pastillas next</h5>
+                            <p class="card-text">Pastillas para el dolor de cabeza, gripe y tos de 10 pastillas</p>
+                            <p class="card-text"><small class="text-success">$30.00 por caja</small></p>
+                            <asp:Button Text="Agregar" CssClass="btn btn-primary btn-block" runat="server" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="img/el%20amor%20te%20ha%20cegado.jpg" class="card-img" alt="Pastillas next caja 10P" />
+                        <div class="card-body">
+                            <h5 class="card-title">Pastillas next</h5>
+                            <p class="card-text">Pastillas para el dolor de cabeza, gripe y tos de 10 pastillas</p>
+                            <p class="card-text"><small class="text-success">$30.00 por caja</small></p>
+                            <asp:Button Text="Agregar" CssClass="btn btn-primary btn-block" runat="server" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </main>
 
