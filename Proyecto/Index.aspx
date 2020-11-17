@@ -53,10 +53,7 @@
                             </div>
                         </div>
                         &nbsp;
-
                         <a class="btn btn-outline-dark" href="panelAdmin.aspx">Administrador</a>
-
-
                     </div>
                 </div>
             </nav>
