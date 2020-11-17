@@ -21,6 +21,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarsExample07">
+
                         <ul class="navbar-nav mr-auto">
                             <!-- botones simples  -->
                             <li class="nav-item">
@@ -38,14 +39,27 @@
                         </ul>
                         <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#btnBuscar">Buscar </button>
                         &nbsp;
+                        <%-- 
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+                                </svg>
+
+                                <div class="dropdown-item">
+                                    Pastillas <span class="text-success">$30.00</span> X <span class="text-black-50">4</span>
+                                    <button class="btn btn-danger">X</button>
+                                </div>
+                        --%>
+                        <!-- Example split danger button -->
                         <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                            <button type="button" class="btn btn-secondary">
                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
                                 </svg>
                             </button>
+                            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
                             <div class="dropdown-menu dropdown-menu-left dropdown-menu-lg-right">
-                                <button class="dropdown-item" type="button">Action</button>
                                 <div class="dropdown-item">
                                     Pastillas <span class="text-success">$30.00</span> X <span class="text-black-50">4</span>
                                     <button class="btn btn-danger">X</button>
@@ -53,10 +67,7 @@
                             </div>
                         </div>
                         &nbsp;
-
                         <a class="btn btn-outline-dark" href="panelAdmin.aspx">Administrador</a>
-
-
                     </div>
                 </div>
             </nav>
@@ -89,7 +100,7 @@
 
         <%-- Carrusel de medicamento --%>
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            
+
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -98,21 +109,21 @@
             <div class="carousel-inner">
                 <%-- Imagenes del carrusel --%>
                 <div class="carousel-item active">
-                    <img src="https://www.decilenext.com.ar/assets/img/banner3.png" class="d-block w-100" alt="Pastillas Next"/>
+                    <img src="https://www.decilenext.com.ar/assets/img/banner3.png" class="d-block w-100" alt="Pastillas Next" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Pastillas Next</h5>
                         <p>Pastillas para el dolor de cabeza, gripe y tos de 10 pastillas.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://broncolin.com.mx/wp-content/uploads/2020/03/banner-web-1-light-1.jpg" class="d-block w-100" alt="Jarabe Broncolin"/>
+                    <img src="https://broncolin.com.mx/wp-content/uploads/2020/03/banner-web-1-light-1.jpg" class="d-block w-100" alt="Jarabe Broncolin" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Jarabe Broncolin</h5>
                         <p>Jarabe para la tos y resfriados recomendados para niños</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.ctfassets.net/th5532uiq8ey/7CDOUeWtXUgnWSGLrPnPaH/82afdb16286cd406bb0a2488a036065d/congestion-nasal-banner.jpg" class="d-block w-100" alt="Familia vic Vaporup"/>
+                    <img src="https://images.ctfassets.net/th5532uiq8ey/7CDOUeWtXUgnWSGLrPnPaH/82afdb16286cd406bb0a2488a036065d/congestion-nasal-banner.jpg" class="d-block w-100" alt="Familia vic Vaporup" />
                     <div class="carousel-caption d-none d-md-block">
                         <h5>La familia vaporup esta aqui</h5>
                         <p>Todos los medicamentos de la familia vic vaporup se encuentran en esta farmacia</p>
@@ -201,6 +212,12 @@
             </div>
         </main>
 
+        <footer class="page-footer font-small">
+            <div class="footer-copyright text-center py-3">
+                © 2020 Copyright:
+                <a href="#" class="text-white">Farmacia.com</a>
+            </div>
+        </footer>
     </form>
 </body>
 </html>
