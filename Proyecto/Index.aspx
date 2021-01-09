@@ -128,12 +128,10 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-
         </div>
 
         <main class="container">
-            <div class="row justify-content-around" id="ContenedorProductos">
-
+            <div class="row justify-content-around">
                 <div class="col-auto d-inline-block">
                     <div class="card m-2" style="width: 16rem;">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71Tpm-6qKHL._AC_SL1500_.jpg" class="card-img" alt="Pastillas next caja 10P" />
@@ -145,7 +143,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-auto d-inline-block">
                     <div class="card m-2" style="width: 16rem;">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71Tpm-6qKHL._AC_SL1500_.jpg" class="card-img" alt="Pastillas next caja 10P" />
@@ -157,7 +154,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-auto d-inline-block">
                     <div class="card m-2" style="width: 16rem;">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71Tpm-6qKHL._AC_SL1500_.jpg" class="card-img" alt="Pastillas next caja 10P" />
@@ -169,7 +165,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-auto d-inline-block">
                     <div class="card m-2" style="width: 16rem;">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71Tpm-6qKHL._AC_SL1500_.jpg" class="card-img" alt="Pastillas next caja 10P" />
@@ -181,7 +176,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-auto d-inline-block">
                     <div class="card m-2" style="width: 16rem;">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71Tpm-6qKHL._AC_SL1500_.jpg" class="card-img" alt="Pastillas next caja 10P" />
@@ -193,7 +187,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-auto d-inline-block">
                     <div class="card m-2" style="width: 16rem;">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/71Tpm-6qKHL._AC_SL1500_.jpg" class="card-img" alt="Pastillas next caja 10P" />
@@ -205,14 +198,12 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </main>
 
         <footer class="page-footer font-small">
             <div class="footer-copyright text-center py-3">
-                &#169; 2020 Copyright:
+                © 2020 Copyright:
                 <a href="#" class="text-white">Farmacia.com</a>
             </div>
         </footer>
