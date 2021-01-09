@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" lang="es-mx" />
-    <title>Inicio</title>
+    <title>Farmacia</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.0.0.slim.min.js"></script>
     <script src="Scripts/bootstrap.bundle.js"></script>
